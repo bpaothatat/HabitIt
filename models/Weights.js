@@ -7,7 +7,7 @@ const WeightSchema = new mongoose.Schema([{
     },
     weights: [{
         weekStartDate: {
-            type: Date,
+            type: String,
             require: true
         },
         monday: {
